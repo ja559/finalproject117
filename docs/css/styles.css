@@ -1,0 +1,201 @@
+.how-it-works.row .col-2 {
+    align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+.timeline hr {
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+.timeline .corner {
+    border: 3px solid #ED8D8D;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+body {
+    overflow: scroll;
+
+}
+
+.bodywidth {
+    width: 960px;
+}
+#top {
+    height: 135px;
+    line-height: 135px;
+}
+#logo {
+    height: 135px;
+}
+
+#banner {
+    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
+    position: relative;
+}
+#bannerbox{
+    width: 480px;
+    opacity: 0.7;
+}
+#main {
+    margin-top: 31px;
+}
+#footer {
+    height: 100px;
+    line-height: 100px;
+}
+#banner h1 {
+    position: relative;
+    top: 150px;
+    margin-left: 31px;
+}
+#leftcontent{
+    padding: 15px;
+    border: 1px solid;
+}
+#picture {
+    border: 1px solid;
+}
+#rightheadertext{
+    font-size: 24;
+    padding: 25px;
+    font-weight: bold;
+}
+#righttext{
+    margin-left: 50px;
+
+}
+
+
+.blackwhite{
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.thinBorder {
+    border: 1px black solid;
+}
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+.displayInline {
+    display: inline;
+}
+.wrapperPaddingRight {
+    padding-right: 31px;
+}
+.floatLeft {
+    float: left;
+}
+
+.clearMargin {
+    margin: 0px;
+}
+
+.clearPadding {
+    padding: 0px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.grSmall {
+    width: 329px;
+}
+
+.grBig {
+    width: 600px;
+}
+
+.grFont {
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.Helvetica {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
+}
+.middleJumbo{
+    height: 400px;
+}
+.cardSize{
+    height: 360px;
+    width: 450px;
+}
+.grRight
+{
+    width: 291px;
+}
+.grLeft
+{
+    width: 291px;
+}
+.location li::after{
+    content: '/';
+    font-size: 10px;
+    color: #6f6f6f;
+    padding-left: 5px;
+}
